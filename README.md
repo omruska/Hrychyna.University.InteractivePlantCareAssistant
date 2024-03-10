@@ -1,3 +1,8 @@
+Dariia Hrychyna
+dariahrychyna@gmail.com
+https://t.me/daria_2701
+
+
 #43 - Interactive Plant Care Assistant
 
 Description:
@@ -24,8 +29,8 @@ Development Plan on a Weekly Basis:
 Week 1:
 - Implement feature: User Registration with Google OAuth 2.0
 - Set up Azure environment for project deployment
-- Create README.md with Getting Started documentation
-- Set up GitHub repository for code storage
+- Create README.md with Getting Started documentation ✔️
+- Set up GitHub repository for code storage ✔️
 - Configure Continuous Integration/Continuous Delivery pipeline
 
 Week 2:
