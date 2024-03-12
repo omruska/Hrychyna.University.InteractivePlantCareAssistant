@@ -1,5 +1,7 @@
 Dariia Hrychyna
+
 dariahrychyna@gmail.com
+
 https://t.me/daria_2701
 
 
@@ -28,13 +30,13 @@ Development Plan on a Weekly Basis:
 
 Week 1:
 - Implement feature: User Registration with Google OAuth 2.0
-- Set up Azure environment for project deployment
+- Set up Azure environment for project deployment ✔️
 - Create README.md with Getting Started documentation ✔️
 - Set up GitHub repository for code storage ✔️
 - Configure Continuous Integration/Continuous Delivery pipeline
 
 Week 2:
-- Implement feature: Plant Profile Creation
+- Implement feature: Plant Profile Creation ✔️
 - Develop architecture diagram for project documentation
 - Configure unit tests for user authentication functionality
 - Create Postman collection for endpoint testing
