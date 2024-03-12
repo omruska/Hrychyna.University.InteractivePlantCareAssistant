@@ -5,11 +5,14 @@ dariahrychyna@gmail.com
 https://t.me/daria_2701
 
 
+
 #43 - Interactive Plant Care Assistant
+
 
 Description:
 
 This web application provides personalized care guidance for plants, including watering schedules, sunlight recommendations, and troubleshooting tips based on plant type and location. Users can easily manage their plants' health and growth through tailored assistance.
+
 
 List of Application Features:
 
