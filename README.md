@@ -14,17 +14,29 @@ This web application provides personalized care guidance for plants, including w
 List of Application Features:
 
 • User Registration: Users can sign up using their Google account, enabling personalized plant care recommendations.
+
 • Plant Profile Creation: Users can create profiles for their plants, specifying details such as plant type and location.
+
 • Personalized Care Plans: Based on plant profiles, the system generates customized care plans including watering schedules, sunlight requirements, and troubleshooting tips.
+
 • Plant Care Reminders: Users receive notifications and reminders for watering, sunlight exposure, and other care tasks.
+
 • Plant Troubleshooting: The application provides troubleshooting guidance for common plant issues, helping users diagnose and resolve problems.
+
 • Community Forum: Users can engage in a community forum to share plant care tips, ask questions, and connect with other plant enthusiasts.
+
 • Plant Encyclopedia: Access to a comprehensive plant encyclopedia with information on various plant species, care requirements, and growth tips.
+
 • Location-based Recommendations: Utilizing location data, the system offers tailored recommendations considering local climate and environmental factors.
+
 • Feedback Mechanism: Users can provide feedback on the effectiveness of care recommendations, helping to improve the system's accuracy over time.
+
 • Data Analytics: The application collects user interaction data to analyze trends in plant care behavior and improve recommendation algorithms.
+
 • User Profile Management: Users can manage their account settings, preferences, and connected devices for plant monitoring.
+
 • Admin Dashboard: Administrators have access to a dashboard for managing user accounts, content moderation, and system configuration.
+
 
 Development Plan on a Weekly Basis:
 
