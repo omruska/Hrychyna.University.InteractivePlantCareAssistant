@@ -9,6 +9,16 @@ https://t.me/daria_2701
 #43 - Interactive Plant Care Assistant
 
 
+
+____________________________________________________________________________
+System Usage Instructions:
+
+• Register\Sign in on the Registration Page;
+• Create a profile for your plant at Create Plant Profile, specifying the name of the plant, its type, location, planting date and lighting. You can also add a photo of the plant;
+• Visit the Forum, where you can create a topic\question, leave a comment on the selected topic\question and like the selected topic\question;
+
+
+
 Description:
 
 This web application provides personalized care guidance for plants, including watering schedules, sunlight recommendations, and troubleshooting tips based on plant type and location. Users can easily manage their plants' health and growth through tailored assistance.
