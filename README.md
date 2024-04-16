@@ -26,6 +26,8 @@ Description:
 This web application provides personalized care guidance for plants, including watering schedules, sunlight recommendations, and troubleshooting tips based on plant type and location. Users can easily manage their plants' health and growth through tailored assistance.
 
 
+
+
 List of Application Features:
 
 • User Registration: Users can sign up using their Google account, enabling personalized plant care recommendations.
