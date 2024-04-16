@@ -97,7 +97,7 @@ Week 5:
 Week 6:
 - Implement feature: Community Forum
 - Integrate user feedback mechanism
-- Develop user interface for community forum functionality
+- Develop user interface for community forum functionality✔️
 - Conduct load testing to assess system performance under high traffic
 - Update README.md with system usage instructions✔️
 
