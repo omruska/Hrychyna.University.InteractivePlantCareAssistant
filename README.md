@@ -26,7 +26,7 @@ Description:
 This web application provides personalized care guidance for plants, including watering schedules, sunlight recommendations, and troubleshooting tips based on plant type and location. Users can easily manage their plants' health and growth through tailored assistance.
 
 
-
+____________________________________________________________________________
 
 List of Application Features:
 
@@ -53,6 +53,8 @@ List of Application Features:
 • User Profile Management: Users can manage their account settings, preferences, and connected devices for plant monitoring.
 
 • Admin Dashboard: Administrators have access to a dashboard for managing user accounts, content moderation, and system configuration.
+____________________________________________________________________________
+
 
 
 Development Plan on a Weekly Basis:
@@ -97,7 +99,7 @@ Week 6:
 - Integrate user feedback mechanism
 - Develop user interface for community forum functionality
 - Conduct load testing to assess system performance under high traffic
-- Update README.md with system usage instructions
+- Update README.md with system usage instructions✔️
 
 Week 7:
 - Implement feature: Plant Encyclopedia
