@@ -14,7 +14,9 @@ ____________________________________________________________________________
 System Usage Instructions:
 
 • Register\Sign in on the Registration Page;
+
 • Create a profile for your plant at Create Plant Profile, specifying the name of the plant, its type, location, planting date and lighting. You can also add a photo of the plant;
+
 • Visit the Forum, where you can create a topic\question, leave a comment on the selected topic\question and like the selected topic\question;
 
 ____________________________________________________________________________
