@@ -106,7 +106,7 @@ Week 6:
 Week 7:
 - Implement feature: Plant Encyclopedia
 - Enhance user profile management functionality
-- Develop user interface for plant encyclopedia feature
+- Develop user interface for plant encyclopedia feature ✔️
 - Conduct security testing to identify and address potential vulnerabilities
 - Document security measures in README.md
 
