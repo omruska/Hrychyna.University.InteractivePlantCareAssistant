@@ -16,7 +16,6 @@ Contact information for support:
 • write to the email address dariahrychyna@gmail.com
 
 • or write to Telegram https://t.me/daria_2701
-____________________________________________________________________________
 
 
 
