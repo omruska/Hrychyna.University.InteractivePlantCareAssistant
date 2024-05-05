@@ -8,6 +8,16 @@ https://t.me/daria_2701
 
 #43 - Interactive Plant Care Assistant
 
+____________________________________________________________________________
+Contact information for support:
+
+• by phone number +38 (096) 843 03 27
+
+• write to the email address dariahrychyna@gmail.com
+
+• or write to Telegram https://t.me/daria_2701
+____________________________________________________________________________
+
 
 
 ____________________________________________________________________________
@@ -18,7 +28,6 @@ System Usage Instructions:
 • Create a profile for your plant at Create Plant Profile, specifying the name of the plant, its type, location, planting date and lighting. You can also add a photo of the plant;
 
 • Visit the Forum, where you can create a topic\question, leave a comment on the selected topic\question and like the selected topic\question;
-
 ____________________________________________________________________________
 
 
@@ -122,7 +131,7 @@ Week 9:
 - Enhance admin dashboard functionality for content moderation
 - Develop user interface for feedback submission and review
 - Conduct compatibility testing on Chrome PC browsers
-- Update README.md with contact information for support
+- Update README.md with contact information for support✔️
 
 Week 10:
 - Implement feature: Data Analytics
