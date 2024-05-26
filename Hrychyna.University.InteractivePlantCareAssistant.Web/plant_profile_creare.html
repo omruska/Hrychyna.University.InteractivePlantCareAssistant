@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Profile Creation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        /* Your CSS styles here */
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Logo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <!-- інші пункти меню, які можуть бути тут -->
+                    </ul>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="home_page.html" target="_blank">Home Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="registration_page.html" target="_blank">Registration Page</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="forum.html" target="_blank">Forum</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html" target="_blank">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <h2>Create Plant Profile</h2>
+
+        <form id="plantProfileForm" action="/create_profile" method="POST">
+            <div class="form-group">
+                <label for="plantName">Plant Name:</label>
+                <input type="text" class="form-control" id="plantName" name="plantName" required>
+            </div>
+            <div class="form-group">
+                <label for="plantType">Plant Type:</label>
+                <select class="form-control" id="plantType" name="plantType" required>
+                    <option value="">Select Plant Type</option>
+                    <option value="Flowers">Flowers</option>
+                    <option value="Mini-bush">Mini-bush</option>
+                    <option value="Mini-tree">Mini-tree</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="location">Location:</label>
+                <select class="form-control" id="location" name="location" required>
+                    <option value="">Select Location</option>
+                    <optgroup label="Indoor">
+                        <option value="On windowsill">On windowsill</option>
+                        <option value="On the floor">On the floor</option>
+                        <option value="On the table">On the table</option>
+                    </optgroup>
+                    <optgroup label="Outdoor">
+                        <option value="In the garden">In the garden</option>
+                        <option value="On the balcony">On the balcony</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="plantPlantingDate">Planting Date:</label>
+                <input type="date" class="form-control" id="plantPlantingDate" name="plantPlantingDate" required>
+            </div>
+            <div class="form-group">
+                <label for="plantLight">Light Exposure:</label>
+                <select class="form-control" id="plantLight" name="plantLight" required>
+                    <option value="">Select Light Exposure</option>
+                    <option value="Direct sunlight">Direct sunlight</option>
+                    <option value="Partial shade">Partial shade</option>
+                    <option value="Shade">Shade</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="plantImage">Plant Image:</label>
+                <input type="file" class="form-control" id="plantImage" name="plantImage">
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+
+    <a href="home_page.html" class="btn btn-primary">Home</a>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("plantProfileForm").addEventListener("submit", function (event) {
+                event.preventDefault();
+                alert("Plant profile submitted!");
+            });
+        });
+    </script>
+</body>
+</html>
