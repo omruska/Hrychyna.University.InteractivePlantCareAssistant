@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Encyclopedia</title>
+    <style>
+        body {
+            font-family: Bradley Hand, cursive;
+            background-color: #c8d2c7;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+        }
+        .search-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #search {
+            border-radius: 20px;
+            padding: 8px 20px;
+            border: 1px solid #87a79c;
+            outline: none;
+        }
+
+        #search:focus {
+            border-color: #a4a792;
+        }
+        .alphabet-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        .search-container button {
+            border-radius: 20px;
+            padding: 8px 20px;
+            border: 1px solid #87a79c;
+            background-color: #e9ddc7;
+            cursor: pointer;
+        }
+
+        .search-container button:hover {
+            background-color: #a4a792;
+        }
+
+
+        .alphabet-buttons button {
+            margin: 5px;
+            padding: 5px 10px;
+            border: 1px solid #ccc;
+            border-radius: 50%;
+            background-color: #e9ddc7;
+            cursor: pointer;
+        }
+        .alphabet-buttons button:hover {
+            background-color: #a4a792;
+        }
+        
+        .plant-list {
+            margin-top: 20px;
+           padding-left: 20px;
+        }
+
+        .plant-list-item {
+            position: relative;
+            margin-bottom: 8px;
+        }
+
+        .plant-list-item::before {
+             content: '';
+             position: absolute;
+             top: -4px; /* Встановлюємо положення полоски над назвою рослини */
+             left: 0;
+             width: 100%;
+             height: 0.5px; /* Висота полоски */
+             background-color: #969696; /* Світло-сірий колір, відповідний вашому стилю */
+             display: block;
+        }
+
+        .section-heading {
+            background-color: #87a79c;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Plant Encyclopedia</h1>
+        
+        <!-- Search Field -->
+        <div class="search-container">
+            <label for="search">Search:</label>
+            <input type="text" id="search" name="search">
+            <button type="button">Search</button>
+        </div>
+        
+        <!-- Alphabet Buttons -->
+        <div class="alphabet-buttons">
+            <p>Find a topic by its first letter:</p>
+            <button onclick="navigateToSection('A')">A</button>
+            <button onclick="navigateToSection('B')">B</button>
+            <button onclick="navigateToSection('C')">C</button>
+            <button onclick="navigateToSection('D')">D</button>
+            <button onclick="navigateToSection('E')">E</button>
+            <button onclick="navigateToSection('F')">F</button>
+            <button onclick="navigateToSection('G')">G</button>
+            <button onclick="navigateToSection('H')">H</button>
+            <button onclick="navigateToSection('I')">I</button>
+            <button onclick="navigateToSection('J')">J</button>
+            <button onclick="navigateToSection('K')">K</button>
+            <button onclick="navigateToSection('L')">L</button>
+            <button onclick="navigateToSection('M')">M</button>
+            <button onclick="navigateToSection('N')">N</button>
+            <button onclick="navigateToSection('O')">O</button>
+            <button onclick="navigateToSection('P')">P</button>
+            <button onclick="navigateToSection('Q')">Q</button>
+            <button onclick="navigateToSection('R')">R</button>
+            <button onclick="navigateToSection('S')">S</button>
+            <button onclick="navigateToSection('T')">T</button>
+            <button onclick="navigateToSection('U')">U</button>
+            <button onclick="navigateToSection('V')">V</button>
+            <button onclick="navigateToSection('W')">W</button>
+            <button onclick="navigateToSection('X')">X</button>
+            <button onclick="navigateToSection('Y')">Y</button>
+            <button onclick="navigateToSection('Z')">Z</button>
+        </div>
+        
+        <!-- Sections for each letter -->
+        <div id="sections">
+
+            <div id="section_A" class="section">
+                <div class="section-heading">A</div>
+                <div class="plant-list">
+                    <div class="plant-list-item"><a href="african-violet.html" target="_blank">African Violet</a></div>
+                    <div class="plant-list-item"><a href="agapanthus.html" target="_blank">Agapanthus</a></div>
+                    <div class="plant-list-item"><a href="avocado.html" target="_blank">Avocado</a></div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+            
+            <div id="section_B" class="section">
+                <div class="section-heading">B</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Begonia</div>
+                    <div class="plant-list-item">Bellflower</div>
+                    <div class="plant-list-item">Bleeding Heart</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+            
+            <div id="section_C" class="section">
+                <div class="section-heading">C</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Calendulania</div>
+                    <div class="plant-list-item">Camellia</div>
+                    <div class="plant-list-item">Cranberries</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_D" class="section">
+                <div class="section-heading">D</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Dahlia</div>
+                    <div class="plant-list-item">Dianthus</div>
+                    <div class="plant-list-item">Dusty Miller</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_E" class="section">
+                <div class="section-heading">E</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Easter Cactus</div>
+                    <div class="plant-list-item">Elephant bush,</div>
+                    <div class="plant-list-item">Euphorbia</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_F" class="section">
+                <div class="section-heading">F</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Ficus</div>
+                    <div class="plant-list-item">Forget-Me-Not</div>
+                    <div class="plant-list-item">Freesia</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_G" class="section">
+                <div class="section-heading">G</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Gardenia</div>
+                    <div class="plant-list-item">Geranium</div>
+                    <div class="plant-list-item">Gerbera Daisy</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_H" class="section">
+                <div class="section-heading">H</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Hellebore</div>
+                    <div class="plant-list-item">Hydrangea</div>
+                    <div class="plant-list-item">Hyacinth</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_I" class="section">
+                <div class="section-heading">I</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Impatiens</div>
+                    <div class="plant-list-item">Iris</div>
+                    <div class="plant-list-item">Indian Paintbrush</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_J" class="section">
+                <div class="section-heading">J</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Jasmine</div>
+                    <div class="plant-list-item">Jacob's Ladder</div>
+                    <div class="plant-list-item">Juniper</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_K" class="section">
+                <div class="section-heading">K</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Kalanchoe</div>
+                    <div class="plant-list-item">Korean Rock Ferns</div>
+                    <div class="plant-list-item">Kentia Palm</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_L" class="section">
+                <div class="section-heading">L</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Lamb’s Ear</div>
+                    <div class="plant-list-item">Lilac</div>
+                    <div class="plant-list-item">Lavender</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_M" class="section">
+                <div class="section-heading">M</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Magnolia Trees</div>
+                    <div class="plant-list-item">Monstera Houseplant</div>
+                    <div class="plant-list-item">Morning Glory</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_N" class="section">
+                <div class="section-heading">N</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Nasturtium</div>
+                    <div class="plant-list-item">Norfolk Island Pine</div>
+                    <div class="plant-list-item">New Guinea Impatiens</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_O" class="section">
+                <div class="section-heading">O</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Oleander</div>
+                    <div class="plant-list-item">Orchids</div>
+                    <div class="plant-list-item">Oxalis</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_P" class="section">
+                <div class="section-heading">P</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Parlor Palm</div>
+                    <div class="plant-list-item">Peony</div>
+                    <div class="plant-list-item">Pothos</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_Q" class="section">
+                <div class="section-heading">Q</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Queen of the Prairie</div>
+                    <div class="plant-list-item">Quince Trees</div>
+                    <div class="plant-list-item">Queen Elizabeth Rose</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_R" class="section">
+                <div class="section-heading">R</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Raspberries</div>
+                    <div class="plant-list-item">Rosemary</div>
+                    <div class="plant-list-item">Redbud Tree</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_S" class="section">
+                <div class="section-heading">S</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Saffron</div>
+                    <div class="plant-list-item">Snake Plant</div>
+                    <div class="plant-list-item">Spider Lily</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_T" class="section">
+                <div class="section-heading">T</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Trillium</div>
+                    <div class="plant-list-item">Thrift</div>
+                    <div class="plant-list-item">'Teddy Bear' Sunflower</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_U" class="section">
+                <div class="section-heading">U</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Umbrella Plant</div>
+                    <div class="plant-list-item">Ursinia</div>
+                    <div class="plant-list-item">Upright clematis</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_V" class="section">
+                <div class="section-heading">V</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Verbena</div>
+                    <div class="plant-list-item">Viburnum</div>
+                    <div class="plant-list-item">Veronica</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_W" class="section">
+                <div class="section-heading">W</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Water Lilies</div>
+                    <div class="plant-list-item">Wild Ginger</div>
+                    <div class="plant-list-item">Weigela</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_X" class="section">
+                <div class="section-heading">X</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Xanthoceras</div>
+                    <div class="plant-list-item">Xeronema</div>
+                    <div class="plant-list-item">Xylosma</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_Y" class="section">
+                <div class="section-heading">Y</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Yarrow</div>
+                    <div class="plant-list-item">Yew Shrub</div>
+                    <div class="plant-list-item">Yellow Bells</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+            <div id="section_Z" class="section">
+                <div class="section-heading">Z</div>
+                <div class="plant-list">
+                    <div class="plant-list-item">Zebra Plants</div>
+                    <div class="plant-list-item">Zinnia</div>
+                    <div class="plant-list-item">ZZ Plant</div>
+                    <!-- Додайте інші рослини для букви B тут -->
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <script>
+        function navigateToSection(letter) {
+            window.location.hash = 'section_' + letter;
+        }
+    </script>
+</body>
+</html>
