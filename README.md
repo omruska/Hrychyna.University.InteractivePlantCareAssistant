@@ -153,3 +153,7 @@ Week 12:
 - Publish project on GitHub repository and Azure platform
 - Celebrate project completion and success!
 
+Anti-Lab 2
+  - Katsuba Mariia
+  - https://github.com/omruska/Katsuba.University.Netflix
+  - https://github.com/omruska/Bodnar.University.Miro_Board/pull/1
